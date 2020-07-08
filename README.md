@@ -6,7 +6,9 @@ With `data-hover` you can set a class to an element on Hover.
 
 Example:
 
-![Data-Hover Code](https://raw.githubusercontent.com/andreipintilie/hover.js/master/img/1.PNG)
+```html
+<button class = 'bg-blue-300' data-hover = 'bg-blue-400'>Click me</button>
+```
 
 Where `.bg-blue-300` is:
 
@@ -19,7 +21,11 @@ Where `.bg-blue-300` is:
 The hover works just fine, but what if we want to use more classes within the `data-hover` attribute?
 No problem, we can achieve that by splitting the classes with whitespaces, just like so:
 
-![Data-Hover with Multiple Classes](https://raw.githubusercontent.com/andreipintilie/hover.js/master/img/2.PNG)
+```html
+<button class = 'bg-blue-300' data-hover = 'bg-blue-400 color-red-300'>
+  Click me
+</button>
+```
 
 CSS:
 
@@ -38,7 +44,15 @@ With `data-active` you can set a class to an element on Active.
 
 Example:
 
-![Data-Active Code](https://raw.githubusercontent.com/andreipintilie/hover.js/master/img/3.PNG)
+```html
+<button
+        class = 'bg-blue-300'
+        data-hover = 'bg-blue-400 color-red-300'
+        data-active = 'bg-blue-600'
+>
+  Click me
+</button>
+```
 
 CSS:
 
@@ -50,7 +64,15 @@ CSS:
 
 Just like the `data-hover` attribute, `data-active` can store multiple classes for the active event.
 
-![Data-Active with Multiple Classes](https://raw.githubusercontent.com/andreipintilie/hover.js/master/img/4.PNG)
+```html
+<button
+        class = 'bg-blue-300'
+        data-hover = 'bg-blue-400 color-red-300'
+        data-active = 'bg-blue-600 color-red-500'
+>
+  Click me
+</button>
+```
 
 ```css
 .color-red-500 {
@@ -59,4 +81,5 @@ Just like the `data-hover` attribute, `data-active` can store multiple classes f
 ```
 
 ## About
+### Hover.js is compatible with any element (links, paragraphs, headings, buttons, etc...)
 The conventional way to create Hover & Active through CSS is not supported by old browsers like Internet Explorer 6 or later, so this way we can use Javascript to create custom attributes in order to create the hover & active events.
