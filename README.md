@@ -1,4 +1,4 @@
-# Hover.js (Simple Hover & Active Functionality)
+# Hover.js (Javascript Hover & Active)
 
 ## Data-Hover
 
