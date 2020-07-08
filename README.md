@@ -48,5 +48,4 @@ Where `.bg-gold` and `.bg-blue` are:
 ```
 
 ## About
-Hover.js was built using ```onMouseEnter``` and ```onMouseLeave``` javascript events.
-The conventional way to create Hover & Active effects is not supported by old browsers like Internet Explorer 6 or later, so this way we can use Javascript custom attributes to create hover & active events.
+The conventional way to create Hover & Active through CSS is not supported by old browsers like Internet Explorer 6 or later, so this way we can use Javascript custom attributes to create hover & active events.
