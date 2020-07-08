@@ -1,8 +1,6 @@
 /*******************************************/
 /*    Hover & Active Javascript Classes    */
 /*                                         */
-/*  -       The Firefly Authors         -  */
-/*******************************************/
 /* Tip: Javascript functions are better &  */
 /*      faster than the CSS standard ones. */
 /*******************************************/
