@@ -84,4 +84,4 @@ Just like the `data-hover` attribute, `data-active` can store multiple classes f
 Hover.js is compatible with any element (links, paragraphs, headings, buttons, etc...)
 
 The basic way to create hover & active events through CSS is not supported by old browsers, so now we have a solution for that!
-Hover.js was built on vanilla Javascript, you can create Hover & Active events using CSS classes.
+Hover.js was built with vanilla Javascript, you can create Hover & Active events using CSS classes.
