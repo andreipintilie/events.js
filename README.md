@@ -77,9 +77,9 @@ Example:
 
 ```html
 <input
-    type="text"
-    class="bg-blue-300 color-default"
-    data-focus="color-dark"
+  type="text"
+  class="bg-blue-300 color-default"
+  data-focus="color-dark"
 />
 ```
 
@@ -95,9 +95,9 @@ Just like the `data-hover` and `data-active` attributes, `data-focus` can store 
 
 ```html
 <input
-    type="text"
-    class="bg-blue-300 color-default"
-    data-focus="color-dark bg-gray-100"
+  type="text"
+  class="bg-blue-300 color-default"
+  data-focus="color-dark bg-gray-100"
 />
 ```
 
