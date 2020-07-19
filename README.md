@@ -3,19 +3,27 @@
 ## Data-Hover
 
 With `data-hover` you can set a class to an element on Hover.
-Example:	Example:
-```html	```html
-<button class = 'bg-blue-300' data-hover = 'bg-blue-400'>Click me</button>	<button class = 'bg-blue-300' data-hover = 'bg-blue-400'>Click me</button>
-```	```
-Where `.bg-blue-300` is:	Where `.bg-blue-300` is:
-```css	```css
-.bg-blue-300 {	.bg-blue-300 {
-  background-color: #1a88ff !important;	  background-color: #1a88ff !important;
-}	}
-```	```
-The hover works just fine, but what if we want to use more classes within the `data-hover` attribute?	The hover works just fine, but what if we want to use more classes within the `data-hover` attribute?
-No problem, we can achieve that by splitting the classes with whitespaces, just like so:	No problem, we can achieve that by splitting the classes with whitespaces, just like so:
-```html	```html
+
+```html
+<button
+  class = 'bg-blue-300'
+  data-hover = 'bg-blue-400'
+>      
+  Click me	
+</button>
+```
+
+CSS:
+
+```css
+.bg-blue-300{
+  background-color: #1a88ff !important;
+}
+
+.bg-blue-400{
+  background-color: #007bff !important;
+}
+```
 
 ## Data-Active
 
