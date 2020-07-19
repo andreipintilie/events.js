@@ -107,5 +107,29 @@ Just like the `data-hover` and `data-active` attributes, `data-focus` can store 
 }
 ```
 
+## Data-Transition
+
+With `data-transition` you can set a CSS transition to the html element!
+
+Example:
+
+```html
+<p
+  class="bg-blue-300 p-2 color-default"
+  data-hover="bg-gray-100 color-dark font-bold p-5"
+  data-transition="0.5"
+>
+  Hello, world!
+</p>
+```
+
+Where `data-transition="0.5"` means:
+
+```css
+element{
+  transition: all 0.5s ease-in-out;
+}
+```
+
 ## About
 Events.js is compatible with any element (links, paragraphs, headings, buttons, etc...)
